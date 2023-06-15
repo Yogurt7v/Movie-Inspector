@@ -27,7 +27,7 @@ let getMovie = () => {
               <div class="details">
                 <span>${data.Rated}</span>
                 <span>${data.Year}</span>
-                <span>${data.Rutime}</span>
+                <span>${data.Runtime}</span>
               </div>
               <div class="genre">
                 <div>${data.Genre.split(",").join("</div><div>")}</div>
